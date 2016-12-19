@@ -1,0 +1,17 @@
+[2016-07-19]-[01:33:10 PM]-[27671]-[{"multicast_id":4886454129507467389,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468910482211546%2ada5efbf9fd7ecd"}]}]
+[2016-07-19]-[01:33:11 PM]-[2121]-[{"multicast_id":4994719833031891402,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468910482569496%d7baf4fcf9fd7ecd"}]}]
+[2016-07-19]-[01:46:07 PM]-[27671]-[{"multicast_id":8691474284981001191,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911258839058%2ada5efbf9fd7ecd"}]}]
+[2016-07-19]-[01:46:07 PM]-[2121]-[{"multicast_id":8436241834280338115,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911259160153%d7baf4fcf9fd7ecd"}]}]
+0.65732789039612 seconds
+[2016-07-19]-[01:47:32 PM]-[27671]-[{"multicast_id":5658389436095347874,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911344404133%2ada5efbf9fd7ecd"}]}]
+[2016-07-19]-[01:47:33 PM]-[2121]-[{"multicast_id":8437948246745274130,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911344722694%d7baf4fcf9fd7ecd"}]}]
+0.64063215255737 seconds
+[2016-07-19]-[01:48:44 PM]-[27671]-[{"multicast_id":5557669235998073065,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911416426677%2ada5efbf9fd7ecd"}]}]
+[2016-07-19]-[01:48:45 PM]-[2121]-[{"multicast_id":8045989390848428437,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911416733101%d7baf4fcf9fd7ecd"}]}]
+0.60840702056885 seconds
+[2016-07-19]-[01:49:42 PM]-[27671]-[{"multicast_id":6500510444467588895,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911473977819%2ada5efbf9fd7ecd"}]}]
+[2016-07-19]-[01:49:42 PM]-[2121]-[{"multicast_id":5600583631603374487,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1468911474295634%d7baf4fcf9fd7ecd"}]}]
+0.64458990097046 seconds
+[2016-07-21]-[07:17:04 AM]-[27671]-[{"multicast_id":8785369550125995844,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1469060720599280%2ada5efbf9fd7ecd"}]}]
+[2016-07-21]-[07:17:04 AM]-[2121]-[{"multicast_id":7765024922750189881,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1469060720902429%d7baf4fcf9fd7ecd"}]}]
+[2016-07-21]-[07:17:04 AM]-[0.61283993721008 seconds]

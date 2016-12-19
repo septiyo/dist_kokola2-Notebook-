@@ -1,0 +1,155 @@
+@media screen and (max-height: 432px) {
+	html,body{
+		height:100%;padding:0;margin:0;overflow:hidden;
+		/*background-color: #366;*/
+		height: 100%;
+	}
+	
+	#header {
+		height: 25px;
+	}
+	
+	#logo-header {
+		/*-webkit-transform: scale(.8);
+		-moz-transform: scale(.8);
+		-o-transform: scale(.8);
+		transform: scale(.8);*/
+		
+		width: 105px;
+	}
+	
+	#content-page {
+        /*background-color: rgba(0,102,102,.5);*/
+    }
+	
+	#footer {
+		height: 30px;
+	}
+	
+	#utama-page {
+		height : 100%;
+	}
+	
+	#utama-page .ui-content {
+		position : absolute;
+		top      : 0;
+		right    : 0;
+		bottom   : 0;
+		left     : 0;
+	}
+	
+	.menu li:first-child {
+		background:#f00;
+		/*font-weight:bold;*/
+		font-family:arial black;
+		font-size: 200%;
+		background: url(images/sphinn-icon.png) no-repeat;
+		background-size: contain;
+		border: 4px solid #fff;
+		box-shadow: 0 0 7px 5px #aaa;
+	}
+	
+	.menu li:not(:first-child) {
+		width:20px;
+		background-color: #069;
+		border: 2px solid #fff;
+		box-shadow: 0 0 6px 3px #3399CC;	
+	}
+	
+	.menu li {
+		background: #000;
+		color:#fff;
+		font-size:12px;
+	}
+	.menu a{
+		text-decoration: none;
+		color:#fff;
+	}
+	#menu16 {
+		-webkit-transform-origin: 36px 36px;
+		-moz-transform-origin: 36px 36px;
+		-o-transform-origin: 36px 36px;
+		transform-origin: 36px 36px;
+	
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+		
+	}
+	#menu16.circleMenu-open {
+		-webkit-transform: scale(.8) rotate(360deg);
+		-moz-transform: scale(.8) rotate(360deg);
+		-o-transform: scale(.8) rotate(360deg);
+		transform: scale(.8) rotate(360deg);
+	}
+	#menu16.circleMenu-open > li:first-child {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	/*#menu16.circleMenu-closed > li:not(:first-child){
+		background-color: red;
+	}*/
+	.menu{
+		position:absolute;
+	}
+	#menu16{
+		/*left:45%;*/
+		top:35%;
+	}
+	.rotate-logo {	
+		-webkit-animation:spin-logo .8s linear 1;
+		-moz-animation:spin-logo .8s linear 1;
+		animation:spin-logo .8s linear 1;
+	}
+	.rotate {	
+		-webkit-animation:spin .6s linear 1;
+		-moz-animation:spin .6s linear 1;
+		animation:spin .6s linear 1;
+	}
+	.rotate-back {	
+		-webkit-animation:spin-back .5s linear 1;
+		-moz-animation:spin-back .5s linear 1;
+		animation:spin-back .5s linear 1;
+	}
+	.shadow {
+		-webkit-box-shadow: 0 0 10px 3px #FFFFCC;
+		-moz-box-shadow: 0 0 10px 3px #FFFFCC;
+		box-shadow: 0 0 10px 3px #F00;
+	}
+	#logo {
+		border:1px solid #999;
+		position:absolute;
+		left:12px;
+		top:12px;
+		padding:7px;
+		background-color:#F00;
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+		
+		border-radius: 200px 200px 200px 200px;
+		-moz-border-radius: 200px 200px 200px 200px;
+		-webkit-border-radius: 200px 200px 200px 200px;
+	}
+	@-moz-keyframes spin-logo { 100% { -moz-transform: rotate(180deg); } }
+	@-webkit-keyframes spin-logo { 100% { -webkit-transform: rotate(180deg); } }
+	@keyframes spin-logo { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+	
+	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+	
+	@-moz-keyframes spin-back { 100% { -moz-transform: rotate(-360deg); } }
+	@-webkit-keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); } }
+	@keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+}

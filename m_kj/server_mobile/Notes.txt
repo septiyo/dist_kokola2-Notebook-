@@ -1,0 +1,31 @@
+selector_achiev.php --> Notifikasi Achievement run tiap jam 7.00
+selector_jalan.php --> Notifikasi Pengiriman Barang run tiap 15 menit
+selector_promo.php --> Notifikasi Barang yang belum diorder run tiap jam 7.00, 11.00, 14.00
+
+
+new (H-1)
+-selector_order_d.php --> Notifikasi order Barang run tiap jam 9.00, 11.00
+-selector_order_s.php --> Notifikasi order Barang run tiap jam 9.00, 12.00, 15.00
+-selector_order_p.php --> Notifikasi order Barang run tiap jam 8.00
+(H)
+-selector_order_d_h.php --> Notifikasi order Barang run tiap jam 9.00, 11.00
+-selector_order_s_h.php --> Notifikasi order Barang run tiap jam 9.00, 12.00, 15.00
+-selector_order_p_h.php --> Notifikasi order Barang run tiap jam 8.00
+(H+1)
+-selector_order_d_h1.php --> Notifikasi order Barang run tiap jam 9.00, 11.00
+-selector_order_s_h1.php --> Notifikasi order Barang run tiap jam 9.00, 12.00, 15.00
+
+----------------------------------------------------------------------------------------
+-push_notif_achiev_s.php
+-push_notif_order_d.php
+-push_notif_order_s.php
+-push_notif_confirm_d.php(dari sales->distri)
+-push_notif_confirm_s.php(dari distri->sales)
+-push_notif_confirm_sp.php(dari distri->pusat)
+-push_notif_confirm_p.php(dari pusat->sales & distri) <- form_distributor2.php
+-push_notif_kj_d.php
+-push_notif_kj_s.php
+-push_notif_kj_sp.php
+
+same apikey (online) = 27671,s50,50145
+50145 50146 42658

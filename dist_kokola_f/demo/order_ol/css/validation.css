@@ -1,0 +1,20 @@
+
+    input.error 
+ 	{
+      /*background: red;
+       color:#b6afaf;
+	   */
+	   color:#36C;
+    }
+    label.error 
+    {
+ 
+      font-size:14px;
+      /*background-color:#cc0000;
+      color:orange;*/
+	  color:#36C;
+      padding:3px;
+      margin-left:5px;
+     -moz-border-radius: 8px;
+     -webkit-border-radius: 8px; 
+    }
